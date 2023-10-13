@@ -7,9 +7,11 @@
 import os
 
 def syscall(syscallin):
+ os.system("clear")
  os.system(str(syscallin))
  
 def sysshell():
+ os.system("clear")
  while True:
   sysshellin = input(">>")
   if sysshellin == "exit()":
@@ -17,6 +19,7 @@ def sysshell():
   os.system(str(sysshellin))
 
 def pyshell():
+ os.system("clear")
  while True:
   pyshellin = input(">>>")
   exec(str(pyshellin))
