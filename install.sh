@@ -1,0 +1,1 @@
+rm -rf ./syslib && git clone https://github.com/Jeremy823/syslib && mv ./syslib/syslib/__init__.py ./__init__.py && mv ./syslib/LICENSE ./LICENSE && rm -rf ./syslib && mkdir syslib && mv ./__init__.py ./syslib/__init__.py && mv ./LICENSE ./syslib/LICENSE
