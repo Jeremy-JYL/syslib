@@ -6,10 +6,12 @@
 
 import os
 
+#syscall command
 def syscall(syscallin):
  os.system("clear")
  os.system(str(syscallin))
- 
+
+#sysshell command
 def sysshell():
  os.system("clear")
  while True:
@@ -18,12 +20,14 @@ def sysshell():
     exit()
   os.system(str(sysshellin))
 
+#pyshell command
 def pyshell():
  os.system("clear")
  while True:
   pyshellin = input(">>>")
   exec(str(pyshellin))
 
+#help command
 def help():
   os.system("Clear")
   print("Syslib Help")
