@@ -26,7 +26,11 @@ sudo dnf install python3 git curl
 Note: Because I don't use yum & dnf before so if yum & dnf command wrong please write in Issues, thank you.
 
 # How to install
-To install run this command: curl https://raw.githubusercontent.com/Jeremy823/syslib/main/install.sh | bash
+To install run this command
+
+``
+curl https://raw.githubusercontent.com/Jeremy823/syslib/main/install.sh | bash
+``
 
 This Shell script will remove the old version of syslib and it will download the syslib via github and it will copy the file the the syslib folder.
 
