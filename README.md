@@ -1,6 +1,30 @@
 # syslib Version 1.0
 This is a python libary that running shell/python script in python.
 
+# Before you start
+Check you have installed python3, git, curl.
+Optional: bash
+
+If those not installed run this command (On debian base os)
+
+``
+sudo apt update && sudo apt install python3 git curl
+``
+
+yum
+
+``
+sudo yum install python3 git curl
+``
+
+dnf
+
+``
+sudo dnf install python3 git curl
+``
+
+Note: Because I don't use yum & dnf before so if yum & dnf command wrong please write in Issues, thank you.
+
 # How to install
 To install run this command: curl https://raw.githubusercontent.com/Jeremy823/syslib/main/install.sh | bash
 
