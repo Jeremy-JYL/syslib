@@ -7,6 +7,7 @@ To install run this command: curl https://raw.githubusercontent.com/Jeremy823/sy
 This Shell script will remove the old version of syslib and it will download the syslib via github and it will copy the file the the syslib folder.
 
 Not working?
+
 Try manually install, please view INSTALL.md
 
 # How To Use
