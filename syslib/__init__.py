@@ -37,4 +37,4 @@ def pyshell():
 def help():
   #os.system("clear")
   print("Syslib Help")
-  print("Basic Commamd: syscall, sysshell, pyshell, help.")
+  print("Basic Commamd: syscall, pycall, sysshell, pyshell, help.")
