@@ -1,4 +1,4 @@
-# syslib Version 1.0
+# syslib
 This is a python libary that running shell/python script in python.
 
 # Before you start
@@ -40,7 +40,7 @@ Try manually install, please view INSTALL.md
 
 # How To Use
 To start first import syslib in python: import syslib
-Then syslib include 3 command: syscall(), sysshell(), pyshell(), help(). Note syscall need a argument. E.g: htop, bash.
+Then syslib include 3 command: syscall(), pycall(), sysshell(), pyshell(), help(). Note syscall & pycall need a argument. E.g: htop, bash.
 
 # Note
 syslib did not release on pypi/pip.
